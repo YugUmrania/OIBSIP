@@ -12,9 +12,9 @@ internship at Oasis Infobyte.
 | # | Project | Level | Status |
 |---|---------|-------|--------|
 | 1 | EDA on Retail Sales Data | Level 1 | ✅ Done |
-| 2 | Customer Segmentation | Level 1 | 🔄 In Progress |
-| 3 | Data Cleaning | Level 1 | ⏳ Pending |
-| 4 | Sentiment Analysis | Level 1 | ⏳ Pending |
+| 2 | Customer Segmentation | Level 1 | ✅ Done |
+| 3 | Data Cleaning | Level 1 | ✅ Done |
+| 4 | Sentiment Analysis | Level 1 | ✅ Done |
 | 5 | House Price Prediction | Level 2 | ⏳ Pending |
 | 6 | Wine Quality Prediction | Level 2 | ⏳ Pending |
 | 7 | Fraud Detection | Level 2 | ⏳ Pending |
