@@ -147,6 +147,35 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn (Linear Regression, Sta
 
 ---
 
+## Task 6 — Wine Quality Prediction
+
+**Folder:** `Task-6_Wine-Quality-Prediction/`
+
+### Objective
+Predict wine quality (on a scale of 0–10) based on its chemical characteristics using multiple classification models.
+
+### Steps Performed
+- Loaded and explored wine quality dataset (1,143 records, 12 chemical features + quality label)
+- Performed Exploratory Data Analysis (EDA) with visualizations of feature distributions and correlations
+- Scaled features using StandardScaler
+- Split data into 80% training and 20% testing
+- Trained three classifier models: Random Forest, Stochastic Gradient Descent (SGD), and Support Vector Classifier (SVC)
+- Evaluated models using accuracy, precision, recall, F1-score, and confusion matrices
+
+### Tools Used
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn (Random Forest, SGD, SVC, StandardScaler)
+
+### Outcome
+- **Random Forest** achieved the highest accuracy: **68.56%**
+- Support Vector Classifier: **65.94%**
+- Stochastic Gradient Descent: **55.46%**
+- Random Forest emerged as the best performer for wine quality prediction due to its ability to capture complex non-linear patterns
+- Alcohol content, volatile acidity, and sulphates were among the strongest predictors of quality
+
+**Notebook:** `Wine_qua_pred.ipynb`
+
+---
+
 ## Repository Structure
 
 ```
@@ -156,5 +185,7 @@ OIBSIP/
 ├── Task-3_Data-Cleaning/
 ├── Task-4_Sentiment-Analysis/
 ├── Task-5_House-Price-Prediction/
+├── Task-6_Wine-Quality-Prediction/
+├── Task-7_Fraud-Detection/
 └── README.md
 ```
