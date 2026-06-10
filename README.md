@@ -176,6 +176,34 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn (Random Forest, SGD, SV
 
 ---
 
+## Task 7 — Fraud Detection
+
+**Folder:** `Task-7_Fraud-Detection/`
+
+### Objective
+Detect fraudulent credit card transactions using machine learning models on a highly imbalanced dataset.
+
+### Steps Performed
+- Loaded and explored 284,807 credit card transactions (492 frauds, 0.17%)
+- Performed EDA with visualizations of amount and time distributions by class
+- Engineered features: log-transformed Amount, scaled Amount/Time, time bins
+- Applied SMOTE to handle severe class imbalance
+- Trained Logistic Regression, Decision Tree, and Neural Network (MLP) classifiers
+- Evaluated using precision, recall, F1-score, ROC-AUC, and confusion matrices
+
+### Tools Used
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn (Logistic Regression, Decision Tree, MLP), Imbalanced-learn (SMOTE)
+
+### Outcome
+- **Neural Network (MLP)** achieved the best balance: **F1-score: 0.76**, **Recall: 0.84**
+- Logistic Regression: high recall (0.92) but low precision (0.06)
+- SMOTE significantly improved minority class detection
+- Key fraud indicators: PCA features V14, V10, V12, V17 (highest correlation with Class)
+
+**Notebook:** `fraud_detection.ipynb`
+
+---
+
 ## Repository Structure
 
 ```
