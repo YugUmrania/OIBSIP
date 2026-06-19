@@ -1,3 +1,15 @@
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Projects](https://img.shields.io/badge/Projects-7%2F7-blue)
+![Duration](https://img.shields.io/badge/Duration-1%20Month-orange)
+
+## 🏆 Certifications
+
+| Certificate | Preview |
+|---|---|
+| Certificate of Completion | ![Completion](Certificates/certificate_of_completion.png) |
+| Letter of Recommendation | ![LOR](Certificates/letter_of_recommendation.png) |
+| Certificate of Appreciation (Star Performer) | ![Appreciation](Certificates/certificate_of_appreciation.png) |
+🏆 **Recognized as Star Performer** | 📜 **Letter of Recommendation received**
 # OIBSIP — Data Analytics Internship
 
 ## Oasis Infobyte | Data Analytics Track
